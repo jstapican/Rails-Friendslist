@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :friends
   get 'home/index'
 
   #This will create a route to show our index.html in our homepage.

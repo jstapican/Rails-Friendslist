@@ -724,3 +724,385 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 34ms (Views: 32.3ms | Allocations: 3673)
 
 
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (14.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (14.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateFriends (20210825100134)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (5.3ms)[0m  [1m[35mCREATE TABLE "friends" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar, "last_name" varchar, "email" varchar, "phone" varchar, "twitter" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (10.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210825100134"]]
+  [1m[36mTRANSACTION (11.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (8.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-08-25 10:12:16.284211"], ["updated_at", "2021-08-25 10:12:16.284211"]]
+  [1m[36mTRANSACTION (8.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2021-08-25 18:14:39 +0800
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 293)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 7.0ms | Allocations: 309)
+  Rendered layout layouts/application.html.erb (Duration: 804.1ms | Allocations: 22036)
+Completed 200 OK in 870ms (Views: 824.0ms | ActiveRecord: 0.0ms | Allocations: 25201)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-25 18:15:15 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 75.3ms | Allocations: 10939)
+Completed 200 OK in 79ms (Views: 77.9ms | ActiveRecord: 0.0ms | Allocations: 11382)
+
+
+Started GET "/friends" for 127.0.0.1 at 2021-08-25 18:16:56 +0800
+Processing by FriendsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/index.html.erb within layouts/application
+  [1m[36mFriend Load (4.8ms)[0m  [1m[34mSELECT "friends".* FROM "friends"[0m
+  ↳ app/views/friends/index.html.erb:18
+  Rendered friends/index.html.erb within layouts/application (Duration: 12.9ms | Allocations: 1163)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layout layouts/application.html.erb (Duration: 52.1ms | Allocations: 4441)
+Completed 200 OK in 79ms (Views: 57.0ms | ActiveRecord: 4.8ms | Allocations: 5996)
+
+
+Started GET "/friends/new" for 127.0.0.1 at 2021-08-25 18:17:19 +0800
+Processing by FriendsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/new.html.erb within layouts/application
+  Rendered friends/_form.html.erb (Duration: 46.7ms | Allocations: 6113)
+  Rendered friends/new.html.erb within layouts/application (Duration: 52.5ms | Allocations: 6468)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 70.1ms | Allocations: 9700)
+Completed 200 OK in 112ms (Views: 79.0ms | ActiveRecord: 1.8ms | Allocations: 14626)
+
+
+Started POST "/friends" for 127.0.0.1 at 2021-08-25 18:18:38 +0800
+Processing by FriendsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "friend"=>{"first_name"=>"John Lloyd", "last_name"=>"Cruz", "email"=>"jlloydc@email.com", "phone"=>"12345678901", "twitter"=>"@jcruz"}, "commit"=>"Create Friend"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/friends_controller.rb:27:in `block in create'
+  [1m[36mFriend Create (7.1ms)[0m  [1m[32mINSERT INTO "friends" ("first_name", "last_name", "email", "phone", "twitter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "John Lloyd"], ["last_name", "Cruz"], ["email", "jlloydc@email.com"], ["phone", "12345678901"], ["twitter", "@jcruz"], ["created_at", "2021-08-25 10:18:38.980294"], ["updated_at", "2021-08-25 10:18:38.980294"]]
+  ↳ app/controllers/friends_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (7.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/friends_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/friends/1
+Completed 302 Found in 48ms (ActiveRecord: 15.0ms | Allocations: 5625)
+
+
+Started GET "/friends/1" for 127.0.0.1 at 2021-08-25 18:18:39 +0800
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.4ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:62:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 352)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 85)
+  Rendered layout layouts/application.html.erb (Duration: 38.1ms | Allocations: 3919)
+Completed 200 OK in 85ms (Views: 44.5ms | ActiveRecord: 0.4ms | Allocations: 7489)
+
+
+Started GET "/friends" for 127.0.0.1 at 2021-08-25 18:18:43 +0800
+Processing by FriendsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/index.html.erb within layouts/application
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends"[0m
+  ↳ app/views/friends/index.html.erb:18
+  Rendered friends/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 847)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 85)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 4092)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.1ms | Allocations: 4563)
+
+
+Started GET "/friends" for 127.0.0.1 at 2021-08-25 18:29:31 +0800
+Processing by FriendsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/friends/index.html.erb:18
+  [1m[36mFriend Load (0.3ms)[0m  [1m[34mSELECT "friends".* FROM "friends"[0m
+  ↳ app/views/friends/index.html.erb:18
+  Rendered friends/index.html.erb within layouts/application (Duration: 20.2ms | Allocations: 1868)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 37.2ms | Allocations: 3910)
+  Rendered layout layouts/application.html.erb (Duration: 74.6ms | Allocations: 9335)
+Completed 500 Internal Server Error in 85ms (ActiveRecord: 0.9ms | Allocations: 10536)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+  <div class="container-fluid">
+    <%= link_to 'Friend List App', root_path, class:"navbar-brand" %>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <%= link_to 'About Us', home_about_path, class:"nav-link" %>
+        </li>
+
+        <li class="nav-item">
+          <%= link_to 'Show Friends, friends_path, class:"nav-link" %>
+        </li>
+
+
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+):
+1:    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+2:    
+3:      <div class="container-fluid">
+4:        <%= link_to 'Friend List App', root_path, class:"navbar-brand" %>
+5:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+6:          <span class="navbar-toggler-icon"></span>
+7:        </button>
+8:        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+9:          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+10:    
+11:            <li class="nav-item">
+12:              <%= link_to 'About Us', home_about_path, class:"nav-link" %>
+13:            </li>
+14:    
+15:            <li class="nav-item">
+16:              <%= link_to 'Show Friends, friends_path, class:"nav-link" %>
+17:            </li>
+18:    
+19:    
+20:          </ul>
+21:          <form class="d-flex">
+22:            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+23:            <button class="btn btn-outline-success" type="submit">Search</button>
+24:          </form>
+25:        </div>
+26:      </div>
+27:    </nav>
+  
+app/views/home/_header.html.erb:17: syntax error, unexpected '<', expecting ')'
+app/views/home/_header.html.erb:20: unknown regexp option - l
+app/views/home/_header.html.erb:21: syntax error, unexpected '<'
+app/views/home/_header.html.erb:22: syntax error, unexpected '<'
+app/views/home/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:23: syntax error, unexpected '<'
+app/views/home/_header.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:24: unknown regexp options - fr
+app/views/home/_header.html.erb:25: syntax error, unexpected '<'
+app/views/home/_header.html.erb:26: unknown regexp options - dv
+app/views/home/_header.html.erb:27: syntax error, unexpected '<'
+app/views/home/_header.html.erb:30: unterminated regexp meets end of file
+app/views/home/_header.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/_header.html.erb:17: syntax error, unexpected '<', expecting ')'
+app/views/home/_header.html.erb:20: unknown regexp option - l
+app/views/home/_header.html.erb:21: syntax error, unexpected '<'
+app/views/home/_header.html.erb:22: syntax error, unexpected '<'
+app/views/home/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:23: syntax error, unexpected '<'
+app/views/home/_header.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:24: unknown regexp options - fr
+app/views/home/_header.html.erb:25: syntax error, unexpected '<'
+app/views/home/_header.html.erb:26: unknown regexp options - dv
+app/views/home/_header.html.erb:27: syntax error, unexpected '<'
+app/views/home/_header.html.erb:30: unterminated regexp meets end of file
+app/views/home/_header.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/_header.html.erb:17: syntax error, unexpected '<', expecting ')'
+app/views/home/_header.html.erb:20: unknown regexp option - l
+app/views/home/_header.html.erb:21: syntax error, unexpected '<'
+app/views/home/_header.html.erb:22: syntax error, unexpected '<'
+app/views/home/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:23: syntax error, unexpected '<'
+app/views/home/_header.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:24: unknown regexp options - fr
+app/views/home/_header.html.erb:25: syntax error, unexpected '<'
+app/views/home/_header.html.erb:26: unknown regexp options - dv
+app/views/home/_header.html.erb:27: syntax error, unexpected '<'
+app/views/home/_header.html.erb:30: unterminated regexp meets end of file
+app/views/home/_header.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/_header.html.erb:17: syntax error, unexpected '<', expecting ')'
+app/views/home/_header.html.erb:20: unknown regexp option - l
+app/views/home/_header.html.erb:21: syntax error, unexpected '<'
+app/views/home/_header.html.erb:22: syntax error, unexpected '<'
+app/views/home/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:23: syntax error, unexpected '<'
+app/views/home/_header.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:24: unknown regexp options - fr
+app/views/home/_header.html.erb:25: syntax error, unexpected '<'
+app/views/home/_header.html.erb:26: unknown regexp options - dv
+app/views/home/_header.html.erb:27: syntax error, unexpected '<'
+app/views/home/_header.html.erb:30: unterminated regexp meets end of file
+app/views/home/_header.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/_header.html.erb:17: syntax error, unexpected '<', expecting ')'
+app/views/home/_header.html.erb:20: unknown regexp option - l
+app/views/home/_header.html.erb:21: syntax error, unexpected '<'
+app/views/home/_header.html.erb:22: syntax error, unexpected '<'
+app/views/home/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:23: syntax error, unexpected '<'
+app/views/home/_header.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:24: unknown regexp options - fr
+app/views/home/_header.html.erb:25: syntax error, unexpected '<'
+app/views/home/_header.html.erb:26: unknown regexp options - dv
+app/views/home/_header.html.erb:27: syntax error, unexpected '<'
+app/views/home/_header.html.erb:30: unterminated regexp meets end of file
+app/views/home/_header.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/_header.html.erb:17: syntax error, unexpected '<', expecting ')'
+app/views/home/_header.html.erb:20: unknown regexp option - l
+app/views/home/_header.html.erb:21: syntax error, unexpected '<'
+app/views/home/_header.html.erb:22: syntax error, unexpected '<'
+app/views/home/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:23: syntax error, unexpected '<'
+app/views/home/_header.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:24: unknown regexp options - fr
+app/views/home/_header.html.erb:25: syntax error, unexpected '<'
+app/views/home/_header.html.erb:26: unknown regexp options - dv
+app/views/home/_header.html.erb:27: syntax error, unexpected '<'
+app/views/home/_header.html.erb:30: unterminated regexp meets end of file
+app/views/home/_header.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/layouts/application.html.erb:20
+Started GET "/friends" for 127.0.0.1 at 2021-08-25 18:30:20 +0800
+Processing by FriendsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/index.html.erb within layouts/application
+  [1m[36mFriend Load (0.2ms)[0m  [1m[34mSELECT "friends".* FROM "friends"[0m
+  ↳ app/views/friends/index.html.erb:18
+  Rendered friends/index.html.erb within layouts/application (Duration: 15.7ms | Allocations: 1141)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 274)
+  Rendered layout layouts/application.html.erb (Duration: 42.2ms | Allocations: 4981)
+Completed 200 OK in 51ms (Views: 44.5ms | ActiveRecord: 0.2ms | Allocations: 6208)
+
+
+Started GET "/friends" for 127.0.0.1 at 2021-08-25 18:30:26 +0800
+Processing by FriendsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/index.html.erb within layouts/application
+  [1m[36mFriend Load (0.4ms)[0m  [1m[34mSELECT "friends".* FROM "friends"[0m
+  ↳ app/views/friends/index.html.erb:18
+  Rendered friends/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 838)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 4106)
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.4ms | Allocations: 4577)
+
+
+Started GET "/friends" for 127.0.0.1 at 2021-08-25 18:31:05 +0800
+Processing by FriendsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/index.html.erb within layouts/application
+  [1m[36mFriend Load (0.3ms)[0m  [1m[34mSELECT "friends".* FROM "friends"[0m
+  ↳ app/views/friends/index.html.erb:18
+  Rendered friends/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 1139)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 3.0ms | Allocations: 321)
+  Rendered layout layouts/application.html.erb (Duration: 36.8ms | Allocations: 5020)
+Completed 200 OK in 48ms (Views: 45.9ms | ActiveRecord: 0.3ms | Allocations: 6245)
+
+
+Started GET "/friends/new" for 127.0.0.1 at 2021-08-25 18:31:07 +0800
+Processing by FriendsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/new.html.erb within layouts/application
+  Rendered friends/_form.html.erb (Duration: 8.7ms | Allocations: 1631)
+  Rendered friends/new.html.erb within layouts/application (Duration: 12.0ms | Allocations: 1977)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 29.3ms | Allocations: 5253)
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 0.0ms | Allocations: 5846)
+
+
+Started GET "/friends" for 127.0.0.1 at 2021-08-25 18:31:09 +0800
+Processing by FriendsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/index.html.erb within layouts/application
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends"[0m
+  ↳ app/views/friends/index.html.erb:18
+  Rendered friends/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 832)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 4121)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.1ms | Allocations: 4582)
+
+
+Started GET "/friends/new" for 127.0.0.1 at 2021-08-25 18:31:10 +0800
+Processing by FriendsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/new.html.erb within layouts/application
+  Rendered friends/_form.html.erb (Duration: 3.8ms | Allocations: 1211)
+  Rendered friends/new.html.erb within layouts/application (Duration: 13.5ms | Allocations: 1325)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 5.4ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 39.4ms | Allocations: 4601)
+Completed 200 OK in 42ms (Views: 41.6ms | ActiveRecord: 0.0ms | Allocations: 5067)
+
+
+Started GET "/friends" for 127.0.0.1 at 2021-08-25 18:31:11 +0800
+Processing by FriendsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/index.html.erb within layouts/application
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends"[0m
+  ↳ app/views/friends/index.html.erb:18
+  Rendered friends/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 832)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 42.8ms | Allocations: 4122)
+Completed 200 OK in 49ms (Views: 47.6ms | ActiveRecord: 0.1ms | Allocations: 4583)
+
+
+Started GET "/friends" for 127.0.0.1 at 2021-08-25 18:34:15 +0800
+Processing by FriendsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/index.html.erb within layouts/application
+  [1m[36mFriend Load (0.2ms)[0m  [1m[34mSELECT "friends".* FROM "friends"[0m
+  ↳ app/views/friends/index.html.erb:18
+  Rendered friends/index.html.erb within layouts/application (Duration: 12.1ms | Allocations: 1140)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 320)
+  Rendered layout layouts/application.html.erb (Duration: 39.4ms | Allocations: 5020)
+Completed 200 OK in 49ms (Views: 46.4ms | ActiveRecord: 0.2ms | Allocations: 6240)
+
+
+Started GET "/friends/new" for 127.0.0.1 at 2021-08-25 18:34:38 +0800
+Processing by FriendsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/new.html.erb within layouts/application
+  Rendered friends/_form.html.erb (Duration: 13.4ms | Allocations: 1648)
+  Rendered friends/new.html.erb within layouts/application (Duration: 16.2ms | Allocations: 2007)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 318)
+  Rendered layout layouts/application.html.erb (Duration: 54.9ms | Allocations: 5867)
+Completed 200 OK in 64ms (Views: 59.9ms | ActiveRecord: 0.0ms | Allocations: 7096)
+
+
