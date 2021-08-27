@@ -2585,3 +2585,1570 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.0ms | Allocations: 5031)
 
 
+Started GET "/users/sign_up" for 127.0.0.1 at 2021-08-26 22:23:05 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 5.4ms | Allocations: 213)
+  Rendered devise/shared/_links.html.erb (Duration: 3.6ms | Allocations: 488)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 17.8ms | Allocations: 2240)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 4.5ms | Allocations: 220)
+  Rendered layout layouts/application.html.erb (Duration: 38.5ms | Allocations: 5716)
+Completed 200 OK in 51ms (Views: 49.6ms | Allocations: 7274)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:23:13 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 163)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 11.9ms | Allocations: 1358)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 220)
+  Rendered layout layouts/application.html.erb (Duration: 27.6ms | Allocations: 4834)
+Completed 200 OK in 40ms (Views: 38.3ms | Allocations: 6121)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:24:54 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 5.7ms | Allocations: 536)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 13.6ms | Allocations: 1863)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 3.7ms | Allocations: 547)
+  Rendered layout layouts/application.html.erb (Duration: 37.6ms | Allocations: 6058)
+Completed 200 OK in 53ms (Views: 51.3ms | Allocations: 7924)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:24:57 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 155)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 15.8ms | Allocations: 1013)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 197)
+  Rendered layout layouts/application.html.erb (Duration: 35.3ms | Allocations: 4412)
+Completed 200 OK in 44ms (Views: 42.4ms | Allocations: 5075)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:25:00 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 155)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 1013)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 4.7ms | Allocations: 197)
+  Rendered layout layouts/application.html.erb (Duration: 42.6ms | Allocations: 4411)
+Completed 200 OK in 54ms (Views: 45.4ms | Allocations: 5072)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:25:17 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.6ms | Allocations: 536)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 18.3ms | Allocations: 1860)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 5.8ms | Allocations: 547)
+  Rendered layout layouts/application.html.erb (Duration: 37.5ms | Allocations: 6049)
+Completed 200 OK in 52ms (Views: 50.4ms | Allocations: 7902)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:25:19 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 155)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1013)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 197)
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 4406)
+Completed 200 OK in 31ms (Views: 29.8ms | Allocations: 5067)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:28:54 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.9ms | Allocations: 536)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 9.9ms | Allocations: 1875)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.3ms | Allocations: 547)
+  Rendered layout layouts/application.html.erb (Duration: 35.4ms | Allocations: 6063)
+Completed 200 OK in 53ms (Views: 50.8ms | Allocations: 7916)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:29:16 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1361)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 1431)
+Completed 500 Internal Server Error in 20ms (Allocations: 3257)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h2>Log in</h2>
+
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <div class="field form-group">
+    <%= f.label :email %><br />
+    <%= f.email_field :email,
+    class:"form-control",
+    placeholder:"Email"
+    autofocus: true, autocomplete: "email" %>
+  </div>
+
+  <div class="field form-group">
+    <%= f.label :password %><br />
+    <%= f.password_field :password, autocomplete: "current-password" %>
+  </div>
+
+  <% if devise_mapping.rememberable? %>
+    <div class="field form-group">
+      <%= f.check_box :remember_me %>
+      <%= f.label :remember_me %>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit "Log in" %>
+  </div>
+<% end %>
+
+<%= render "devise/shared/links" %>
+
+):
+1:    <h2>Log in</h2>
+2:    
+3:    <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+4:      <div class="field form-group">
+5:        <%= f.label :email %><br />
+6:        <%= f.email_field :email,
+7:        class:"form-control",
+8:        placeholder:"Email"
+9:        autofocus: true, autocomplete: "email" %>
+10:      </div>
+11:    
+12:      <div class="field form-group">
+13:        <%= f.label :password %><br />
+14:        <%= f.password_field :password, autocomplete: "current-password" %>
+15:      </div>
+16:    
+17:      <% if devise_mapping.rememberable? %>
+18:        <div class="field form-group">
+19:          <%= f.check_box :remember_me %>
+20:          <%= f.label :remember_me %>
+21:        </div>
+22:      <% end %>
+23:    
+24:      <div class="actions">
+25:        <%= f.submit "Log in" %>
+26:      </div>
+27:    <% end %>
+28:    
+29:    <%= render "devise/shared/links" %>
+  
+app/views/devise/sessions/new.html.erb:9: syntax error, unexpected ':', expecting ')'
+app/views/devise/sessions/new.html.erb:9: Can't assign to true
+app/views/devise/sessions/new.html.erb:9: syntax error, unexpected ':', expecting ')'
+app/views/devise/sessions/new.html.erb:9: Can't assign to true
+app/views/devise/sessions/new.html.erb:9: syntax error, unexpected ':', expecting ')'
+app/views/devise/sessions/new.html.erb:9: Can't assign to true
+app/views/devise/sessions/new.html.erb:9: syntax error, unexpected ':', expecting ')'
+app/views/devise/sessions/new.html.erb:9: Can't assign to true
+app/views/devise/sessions/new.html.erb:9: syntax error, unexpected ':', expecting ')'
+app/views/devise/sessions/new.html.erb:9: Can't assign to true
+app/views/devise/sessions/new.html.erb:9: syntax error, unexpected ':', expecting ')'
+app/views/devise/sessions/new.html.erb:9: Can't assign to true
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:33:14 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1373)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 1443)
+Completed 500 Internal Server Error in 18ms (Allocations: 3271)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h2>Log in</h2>
+
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <div class="field form-group">
+    <% f.label :email %>
+    <br />
+    <%= f.email_field :email,
+    class:"form-control",
+    placeholder:"Email",
+    autofocus: true, autocomplete: "email" %>
+  </div>
+
+  <div class="field form-group">
+    <% f.label :password %><br />
+    <%= f.password_field :password,
+    class:"form-control",
+    placeholder:"Password",
+    autocomplete: "current-password" %>
+  </div>
+
+  <% if devise_mapping.rememberable? %>
+    <div class="field form-check">
+      <%= f.check_box :remember_me,
+      class:"form-control", %>
+      <%= f.label :remember_me %>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit "Log in" %>
+  </div>
+<% end %>
+
+<%= render "devise/shared/links" %>
+
+):
+1:    <h2>Log in</h2>
+2:    
+3:    <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+4:      <div class="field form-group">
+5:        <% f.label :email %>
+6:        <br />
+7:        <%= f.email_field :email,
+8:        class:"form-control",
+9:        placeholder:"Email",
+10:        autofocus: true, autocomplete: "email" %>
+11:      </div>
+12:    
+13:      <div class="field form-group">
+14:        <% f.label :password %><br />
+15:        <%= f.password_field :password,
+16:        class:"form-control",
+17:        placeholder:"Password",
+18:        autocomplete: "current-password" %>
+19:      </div>
+20:    
+21:      <% if devise_mapping.rememberable? %>
+22:        <div class="field form-check">
+23:          <%= f.check_box :remember_me,
+24:          class:"form-control", %>
+25:          <%= f.label :remember_me %>
+26:        </div>
+27:      <% end %>
+28:    
+29:      <div class="actions">
+30:        <%= f.submit "Log in" %>
+31:      </div>
+32:    <% end %>
+33:    
+34:    <%= render "devise/shared/links" %>
+  
+app/views/devise/sessions/new.html.erb:24: syntax error, unexpected ')'
+app/views/devise/sessions/new.html.erb:27: syntax error, unexpected `end', expecting ')'
+app/views/devise/sessions/new.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/devise/sessions/new.html.erb:37: syntax error, unexpected `end', expecting ')'
+app/views/devise/sessions/new.html.erb:24: syntax error, unexpected ')'
+app/views/devise/sessions/new.html.erb:27: syntax error, unexpected `end', expecting ')'
+app/views/devise/sessions/new.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/devise/sessions/new.html.erb:37: syntax error, unexpected `end', expecting ')'
+app/views/devise/sessions/new.html.erb:24: syntax error, unexpected ')'
+app/views/devise/sessions/new.html.erb:27: syntax error, unexpected `end', expecting ')'
+app/views/devise/sessions/new.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/devise/sessions/new.html.erb:37: syntax error, unexpected `end', expecting ')'
+app/views/devise/sessions/new.html.erb:24: syntax error, unexpected ')'
+app/views/devise/sessions/new.html.erb:27: syntax error, unexpected `end', expecting ')'
+app/views/devise/sessions/new.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/devise/sessions/new.html.erb:37: syntax error, unexpected `end', expecting ')'
+app/views/devise/sessions/new.html.erb:24: syntax error, unexpected ')'
+app/views/devise/sessions/new.html.erb:27: syntax error, unexpected `end', expecting ')'
+app/views/devise/sessions/new.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/devise/sessions/new.html.erb:37: syntax error, unexpected `end', expecting ')'
+app/views/devise/sessions/new.html.erb:24: syntax error, unexpected ')'
+app/views/devise/sessions/new.html.erb:27: syntax error, unexpected `end', expecting ')'
+app/views/devise/sessions/new.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/devise/sessions/new.html.erb:37: syntax error, unexpected `end', expecting ')'
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:34:14 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 536)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 15.0ms | Allocations: 1915)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 6.6ms | Allocations: 547)
+  Rendered layout layouts/application.html.erb (Duration: 47.3ms | Allocations: 6110)
+Completed 200 OK in 61ms (Views: 58.5ms | Allocations: 7973)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:34:49 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.8ms | Allocations: 536)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 17.3ms | Allocations: 1909)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 5.9ms | Allocations: 547)
+  Rendered layout layouts/application.html.erb (Duration: 55.2ms | Allocations: 6097)
+Completed 200 OK in 69ms (Views: 65.6ms | Allocations: 7950)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:34:53 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 155)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1035)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 197)
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 4428)
+Completed 200 OK in 32ms (Views: 30.7ms | Allocations: 5089)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:35:54 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 536)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 14.6ms | Allocations: 1900)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 6.5ms | Allocations: 547)
+  Rendered layout layouts/application.html.erb (Duration: 41.7ms | Allocations: 6088)
+Completed 200 OK in 59ms (Views: 52.6ms | Allocations: 7940)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:36:27 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 2.1ms | Allocations: 536)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 21.4ms | Allocations: 1900)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 5.5ms | Allocations: 550)
+  Rendered layout layouts/application.html.erb (Duration: 71.8ms | Allocations: 6093)
+Completed 200 OK in 92ms (Views: 90.6ms | Allocations: 7947)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:39:02 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.8ms | Allocations: 536)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 15.2ms | Allocations: 1911)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 5.4ms | Allocations: 547)
+  Rendered layout layouts/application.html.erb (Duration: 42.3ms | Allocations: 6101)
+Completed 200 OK in 57ms (Views: 53.3ms | Allocations: 7964)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:40:24 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 11.2ms | Allocations: 1380)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 1450)
+Completed 500 Internal Server Error in 28ms (Allocations: 3267)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h2>Log in</h2>
+
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <div class="field form-group">
+    <% f.label :email %>
+    <br />
+    <%= f.email_field :email,
+    class:"form-control",
+    placeholder:"Email",
+    autofocus: true, autocomplete: "email" %>
+  </div>
+
+  <div class="field form-group">
+    <% f.label :password %><br />
+    <%= f.password_field :password,
+    class:"form-control",
+    placeholder:"Password",
+    autocomplete: "current-password" %>
+  </div>
+
+  <% if devise_mapping.rememberable? %>
+    <div class="field form-check">
+      <%= f.check_box :remember_me,
+      class:"form-check-input"%>
+      <%= f.label :remember_me %>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit "Log in", class: 'btn btn-secondary %>
+  </div>
+<% end %>
+
+<%= render "devise/shared/links" %>
+
+):
+1:    <h2>Log in</h2>
+2:    
+3:    <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+4:      <div class="field form-group">
+5:        <% f.label :email %>
+6:        <br />
+7:        <%= f.email_field :email,
+8:        class:"form-control",
+9:        placeholder:"Email",
+10:        autofocus: true, autocomplete: "email" %>
+11:      </div>
+12:    
+13:      <div class="field form-group">
+14:        <% f.label :password %><br />
+15:        <%= f.password_field :password,
+16:        class:"form-control",
+17:        placeholder:"Password",
+18:        autocomplete: "current-password" %>
+19:      </div>
+20:    
+21:      <% if devise_mapping.rememberable? %>
+22:        <div class="field form-check">
+23:          <%= f.check_box :remember_me,
+24:          class:"form-check-input"%>
+25:          <%= f.label :remember_me %>
+26:        </div>
+27:      <% end %>
+28:    
+29:      <div class="actions">
+30:        <%= f.submit "Log in", class: 'btn btn-secondary %>
+31:      </div>
+32:    <% end %>
+33:    
+34:    <%= render "devise/shared/links" %>
+  
+app/views/devise/sessions/new.html.erb:31: syntax error, unexpected '<', expecting ')'
+app/views/devise/sessions/new.html.erb:34: unknown regexp options - hard
+app/views/devise/sessions/new.html.erb:34: end pattern with unmatched parenthesis: /div>
+app/views/devise/sessions/new.html.erb:34: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/devise/sessions/new.html.erb:37: unterminated string meets end of file
+app/views/devise/sessions/new.html.erb:37: syntax error, unexpected end-of-input, expecting ')'
+app/views/devise/sessions/new.html.erb:31: syntax error, unexpected '<', expecting ')'
+app/views/devise/sessions/new.html.erb:34: unknown regexp options - hard
+app/views/devise/sessions/new.html.erb:34: end pattern with unmatched parenthesis: /div>
+app/views/devise/sessions/new.html.erb:34: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/devise/sessions/new.html.erb:37: unterminated string meets end of file
+app/views/devise/sessions/new.html.erb:37: syntax error, unexpected end-of-input, expecting ')'
+app/views/devise/sessions/new.html.erb:31: syntax error, unexpected '<', expecting ')'
+app/views/devise/sessions/new.html.erb:34: unknown regexp options - hard
+app/views/devise/sessions/new.html.erb:34: end pattern with unmatched parenthesis: /div>
+app/views/devise/sessions/new.html.erb:34: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/devise/sessions/new.html.erb:37: unterminated string meets end of file
+app/views/devise/sessions/new.html.erb:37: syntax error, unexpected end-of-input, expecting ')'
+app/views/devise/sessions/new.html.erb:31: syntax error, unexpected '<', expecting ')'
+app/views/devise/sessions/new.html.erb:34: unknown regexp options - hard
+app/views/devise/sessions/new.html.erb:34: end pattern with unmatched parenthesis: /div>
+app/views/devise/sessions/new.html.erb:34: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/devise/sessions/new.html.erb:37: unterminated string meets end of file
+app/views/devise/sessions/new.html.erb:37: syntax error, unexpected end-of-input, expecting ')'
+app/views/devise/sessions/new.html.erb:31: syntax error, unexpected '<', expecting ')'
+app/views/devise/sessions/new.html.erb:34: unknown regexp options - hard
+app/views/devise/sessions/new.html.erb:34: end pattern with unmatched parenthesis: /div>
+app/views/devise/sessions/new.html.erb:34: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/devise/sessions/new.html.erb:37: unterminated string meets end of file
+app/views/devise/sessions/new.html.erb:37: syntax error, unexpected end-of-input, expecting ')'
+app/views/devise/sessions/new.html.erb:31: syntax error, unexpected '<', expecting ')'
+app/views/devise/sessions/new.html.erb:34: unknown regexp options - hard
+app/views/devise/sessions/new.html.erb:34: end pattern with unmatched parenthesis: /div>
+app/views/devise/sessions/new.html.erb:34: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/devise/sessions/new.html.erb:37: unterminated string meets end of file
+app/views/devise/sessions/new.html.erb:37: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/users/sign_up" for 127.0.0.1 at 2021-08-26 22:41:03 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 3.3ms | Allocations: 213)
+  Rendered devise/shared/_links.html.erb (Duration: 5.9ms | Allocations: 488)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 21.8ms | Allocations: 2241)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.6ms | Allocations: 547)
+  Rendered layout layouts/application.html.erb (Duration: 46.0ms | Allocations: 6436)
+Completed 200 OK in 61ms (Views: 57.3ms | Allocations: 8229)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:41:09 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 163)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 10.8ms | Allocations: 1417)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 220)
+  Rendered layout layouts/application.html.erb (Duration: 32.1ms | Allocations: 4893)
+Completed 200 OK in 42ms (Views: 40.6ms | Allocations: 6180)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:41:55 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 2.4ms | Allocations: 536)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 15.3ms | Allocations: 1920)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 547)
+  Rendered layout layouts/application.html.erb (Duration: 40.5ms | Allocations: 6108)
+Completed 200 OK in 60ms (Views: 54.4ms | Allocations: 7961)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:42:49 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.6ms | Allocations: 536)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 13.9ms | Allocations: 1921)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 3.7ms | Allocations: 547)
+  Rendered layout layouts/application.html.erb (Duration: 44.0ms | Allocations: 6109)
+Completed 200 OK in 59ms (Views: 55.1ms | Allocations: 7962)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:45:17 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.8ms | Allocations: 536)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 13.6ms | Allocations: 1922)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 547)
+  Rendered layout layouts/application.html.erb (Duration: 38.1ms | Allocations: 6110)
+Completed 200 OK in 53ms (Views: 51.5ms | Allocations: 7963)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2021-08-26 22:52:14 +0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"jamesreid@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "jamesreid@email.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 500ms (ActiveRecord: 0.8ms | Allocations: 4348)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-26 22:52:14 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 109)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/_header.html.erb:20
+  Rendered home/_header.html.erb (Duration: 19.9ms | Allocations: 1144)
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 45.1ms | Allocations: 4834)
+Completed 200 OK in 54ms (Views: 52.2ms | ActiveRecord: 0.3ms | Allocations: 5918)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-26 22:52:17 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 3.6ms | Allocations: 213)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 15.1ms | Allocations: 2096)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 215)
+  Rendered layout layouts/application.html.erb (Duration: 54.8ms | Allocations: 5548)
+Completed 200 OK in 85ms (Views: 68.5ms | ActiveRecord: 0.2ms | Allocations: 7775)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 12:53:25 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 5.3ms | Allocations: 213)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 14.6ms | Allocations: 2106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 542)
+  Rendered layout layouts/application.html.erb (Duration: 38.3ms | Allocations: 6271)
+Completed 200 OK in 70ms (Views: 51.1ms | ActiveRecord: 0.7ms | Allocations: 10071)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 12:57:04 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1483)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 1553)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.2ms | Allocations: 4305)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h2>Edit <%= resource_name.to_s.humanize %></h2>
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+  <%= render "devise/shared/error_messages", resource: resource %>
+
+  <div class="field class:"form-group">
+    <%= f.label :email %><br />
+    <%= f.email_field :email,
+      autofocus: true,
+      autocomplete: "email",
+      class:"form-control",
+      placeholder: "Email"  %>
+  </div>
+
+  <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+    <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
+  <% end %>
+
+  <div class="field" class:"form-group">
+    <%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
+    <%= f.password_field :password,
+      autocomplete: "new-password"
+      class:"form-control",
+      placeholder: "Password" %>
+    <% if @minimum_password_length %>
+      <br />
+      <em><%= @minimum_password_length %> characters minimum</em>
+    <% end %>
+  </div>
+
+  <div class="field class:"form-group"">
+    <%= f.label :password_confirmation %><br />
+    <%= f.password_field :password_confirmation,
+    autocomplete: "new-password",
+    class:"form-control",
+    placeholder: "Password"  %>
+  </div>
+
+  <div class="field class:"form-group"">
+    <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
+    <%= f.password_field :current_password,
+    autocomplete: "current-password",
+    class:"form-control",
+    placeholder: "Current Password"  %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Update" %>
+  </div>
+<% end %>
+
+<h3>Cancel my account</h3>
+
+<p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
+
+<%= link_to "Back", :back %>
+
+):
+1:    <h2>Edit <%= resource_name.to_s.humanize %></h2>
+2:    
+3:    <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+4:      <%= render "devise/shared/error_messages", resource: resource %>
+5:    
+6:      <div class="field class:"form-group">
+7:        <%= f.label :email %><br />
+8:        <%= f.email_field :email,
+9:          autofocus: true,
+10:          autocomplete: "email",
+11:          class:"form-control",
+12:          placeholder: "Email"  %>
+13:      </div>
+14:    
+15:      <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+16:        <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
+17:      <% end %>
+18:    
+19:      <div class="field" class:"form-group">
+20:        <%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
+21:        <%= f.password_field :password,
+22:          autocomplete: "new-password"
+23:          class:"form-control",
+24:          placeholder: "Password" %>
+25:        <% if @minimum_password_length %>
+26:          <br />
+27:          <em><%= @minimum_password_length %> characters minimum</em>
+28:        <% end %>
+29:      </div>
+30:    
+31:      <div class="field class:"form-group"">
+32:        <%= f.label :password_confirmation %><br />
+33:        <%= f.password_field :password_confirmation,
+34:        autocomplete: "new-password",
+35:        class:"form-control",
+36:        placeholder: "Password"  %>
+37:      </div>
+38:    
+39:      <div class="field class:"form-group"">
+40:        <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
+41:        <%= f.password_field :current_password,
+42:        autocomplete: "current-password",
+43:        class:"form-control",
+44:        placeholder: "Current Password"  %>
+45:      </div>
+46:    
+47:      <div class="actions">
+48:        <%= f.submit "Update" %>
+49:      </div>
+50:    <% end %>
+51:    
+52:    <h3>Cancel my account</h3>
+53:    
+54:    <p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
+55:    
+56:    <%= link_to "Back", :back %>
+  
+app/views/devise/registrations/edit.html.erb:23: syntax error, unexpected ',', expecting '.' or &. or :: or '['
+app/views/devise/registrations/edit.html.erb:23: syntax error, unexpected ',', expecting '.' or &. or :: or '['
+app/views/devise/registrations/edit.html.erb:23: syntax error, unexpected ',', expecting '.' or &. or :: or '['
+app/views/devise/registrations/edit.html.erb:23: syntax error, unexpected ',', expecting '.' or &. or :: or '['
+app/views/devise/registrations/edit.html.erb:23: syntax error, unexpected ',', expecting '.' or &. or :: or '['
+app/views/devise/registrations/edit.html.erb:23: syntax error, unexpected ',', expecting '.' or &. or :: or '['
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 21:50:21 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1465)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 1535)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.2ms | Allocations: 4292)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h2>Edit <%= resource_name.to_s.humanize %></h2>
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+  <%= render "devise/shared/error_messages", resource: resource %>
+
+  <div class="field class:"form-group">
+    <%= f.label :email %><br />
+    <%= f.email_field :email,
+      autofocus: true,
+      autocomplete: "email",
+      class:"form-control",
+      placeholder: "Email"  %>
+  </div>
+
+  <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+    <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
+  <% end %>
+
+  <div class="field" class:"form-group">
+    <%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
+    <%= f.password_field :password,
+      autocomplete: "new-password"
+      #class:"form-control",
+      #placeholder: "Password" %>
+    <% if @minimum_password_length %>
+      <br />
+      <em><%= @minimum_password_length %> characters minimum</em>
+    <% end %>
+  </div>
+
+  <div class="field class:"form-group"">
+    <%= f.label :password_confirmation %><br />
+    <%= f.password_field :password_confirmation,
+    autocomplete: "new-password",
+    #class:"form-control",
+    #placeholder: "Password"  %>
+  </div>
+
+  <div class="field class:"form-group"">
+    <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
+    <%= f.password_field :current_password,
+    autocomplete: "current-password",
+    #class:"form-control",
+    #placeholder: "Current Password"  %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Update" %>
+  </div>
+<% end %>
+
+<h3>Cancel my account</h3>
+
+<p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
+
+<%= link_to "Back", :back %>
+
+):
+1:    <h2>Edit <%= resource_name.to_s.humanize %></h2>
+2:    
+3:    <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+4:      <%= render "devise/shared/error_messages", resource: resource %>
+5:    
+6:      <div class="field class:"form-group">
+7:        <%= f.label :email %><br />
+8:        <%= f.email_field :email,
+9:          autofocus: true,
+10:          autocomplete: "email",
+11:          class:"form-control",
+12:          placeholder: "Email"  %>
+13:      </div>
+14:    
+15:      <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+16:        <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
+17:      <% end %>
+18:    
+19:      <div class="field" class:"form-group">
+20:        <%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
+21:        <%= f.password_field :password,
+22:          autocomplete: "new-password"
+23:          #class:"form-control",
+24:          #placeholder: "Password" %>
+25:        <% if @minimum_password_length %>
+26:          <br />
+27:          <em><%= @minimum_password_length %> characters minimum</em>
+28:        <% end %>
+29:      </div>
+30:    
+31:      <div class="field class:"form-group"">
+32:        <%= f.label :password_confirmation %><br />
+33:        <%= f.password_field :password_confirmation,
+34:        autocomplete: "new-password",
+35:        #class:"form-control",
+36:        #placeholder: "Password"  %>
+37:      </div>
+38:    
+39:      <div class="field class:"form-group"">
+40:        <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
+41:        <%= f.password_field :current_password,
+42:        autocomplete: "current-password",
+43:        #class:"form-control",
+44:        #placeholder: "Current Password"  %>
+45:      </div>
+46:    
+47:      <div class="actions">
+48:        <%= f.submit "Update" %>
+49:      </div>
+50:    <% end %>
+51:    
+52:    <h3>Cancel my account</h3>
+53:    
+54:    <p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
+55:    
+56:    <%= link_to "Back", :back %>
+  
+app/views/devise/registrations/edit.html.erb:26: syntax error, unexpected regexp literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:37: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:40: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:45: unknown regexp options - dv
+app/views/devise/registrations/edit.html.erb:47: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:49: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:52: unknown regexp option - h
+app/views/devise/registrations/edit.html.erb:52: syntax error, unexpected integer literal, expecting ')'
+app/views/devise/registrations/edit.html.erb:54: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:59: unterminated regexp meets end of file
+app/views/devise/registrations/edit.html.erb:59: syntax error, unexpected end-of-input, expecting ')'
+app/views/devise/registrations/edit.html.erb:26: syntax error, unexpected regexp literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:37: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:40: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:45: unknown regexp options - dv
+app/views/devise/registrations/edit.html.erb:47: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:49: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:52: unknown regexp option - h
+app/views/devise/registrations/edit.html.erb:52: syntax error, unexpected integer literal, expecting ')'
+app/views/devise/registrations/edit.html.erb:54: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:59: unterminated regexp meets end of file
+app/views/devise/registrations/edit.html.erb:59: syntax error, unexpected end-of-input, expecting ')'
+app/views/devise/registrations/edit.html.erb:26: syntax error, unexpected regexp literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:37: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:40: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:45: unknown regexp options - dv
+app/views/devise/registrations/edit.html.erb:47: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:49: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:52: unknown regexp option - h
+app/views/devise/registrations/edit.html.erb:52: syntax error, unexpected integer literal, expecting ')'
+app/views/devise/registrations/edit.html.erb:54: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:59: unterminated regexp meets end of file
+app/views/devise/registrations/edit.html.erb:59: syntax error, unexpected end-of-input, expecting ')'
+app/views/devise/registrations/edit.html.erb:26: syntax error, unexpected regexp literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:37: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:40: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:45: unknown regexp options - dv
+app/views/devise/registrations/edit.html.erb:47: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:49: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:52: unknown regexp option - h
+app/views/devise/registrations/edit.html.erb:52: syntax error, unexpected integer literal, expecting ')'
+app/views/devise/registrations/edit.html.erb:54: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:59: unterminated regexp meets end of file
+app/views/devise/registrations/edit.html.erb:59: syntax error, unexpected end-of-input, expecting ')'
+app/views/devise/registrations/edit.html.erb:26: syntax error, unexpected regexp literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:37: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:40: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:45: unknown regexp options - dv
+app/views/devise/registrations/edit.html.erb:47: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:49: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:52: unknown regexp option - h
+app/views/devise/registrations/edit.html.erb:52: syntax error, unexpected integer literal, expecting ')'
+app/views/devise/registrations/edit.html.erb:54: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:59: unterminated regexp meets end of file
+app/views/devise/registrations/edit.html.erb:59: syntax error, unexpected end-of-input, expecting ')'
+app/views/devise/registrations/edit.html.erb:26: syntax error, unexpected regexp literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:37: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:40: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:45: unknown regexp options - dv
+app/views/devise/registrations/edit.html.erb:47: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:49: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:52: unknown regexp option - h
+app/views/devise/registrations/edit.html.erb:52: syntax error, unexpected integer literal, expecting ')'
+app/views/devise/registrations/edit.html.erb:54: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:59: unterminated regexp meets end of file
+app/views/devise/registrations/edit.html.erb:59: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 21:53:54 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (4.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 11.0ms | Allocations: 1460)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 1530)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 4.5ms | Allocations: 4287)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h2>Edit <%= resource_name.to_s.humanize %></h2>
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+  <%= render "devise/shared/error_messages", resource: resource %>
+
+  <div class="field form-group">
+    <%= f.label :email %><br />
+    <%= f.email_field :email,
+      autofocus: true,
+      autocomplete: "email",
+      #class:"form-control",
+      #placeholder: "Email"  %>
+  </div>
+
+  <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+    <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
+  <% end %>
+
+  <div class="field form-group">
+    <%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
+    <%= f.password_field :password,
+      autocomplete: "new-password"
+      #class:"form-control",
+      #placeholder: "Password" %>
+    <% if @minimum_password_length %>
+      <br />
+      <em><%= @minimum_password_length %> characters minimum</em>
+    <% end %>
+  </div>
+
+  <div class="field form-group">
+    <%= f.label :password_confirmation %><br />
+    <%= f.password_field :password_confirmation,
+    autocomplete: "new-password",
+    #class:"form-control",
+    #placeholder: "Password"  %>
+  </div>
+
+  <div class="field form-group"">
+    <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
+    <%= f.password_field :current_password,
+    autocomplete: "current-password",
+    #class:"form-control",
+    #placeholder: "Current Password"  %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Update" %>
+  </div>
+<% end %>
+
+<h3>Cancel my account</h3>
+
+<p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
+
+<%= link_to "Back", :back %>
+
+):
+1:    <h2>Edit <%= resource_name.to_s.humanize %></h2>
+2:    
+3:    <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+4:      <%= render "devise/shared/error_messages", resource: resource %>
+5:    
+6:      <div class="field form-group">
+7:        <%= f.label :email %><br />
+8:        <%= f.email_field :email,
+9:          autofocus: true,
+10:          autocomplete: "email",
+11:          #class:"form-control",
+12:          #placeholder: "Email"  %>
+13:      </div>
+14:    
+15:      <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+16:        <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
+17:      <% end %>
+18:    
+19:      <div class="field form-group">
+20:        <%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
+21:        <%= f.password_field :password,
+22:          autocomplete: "new-password"
+23:          #class:"form-control",
+24:          #placeholder: "Password" %>
+25:        <% if @minimum_password_length %>
+26:          <br />
+27:          <em><%= @minimum_password_length %> characters minimum</em>
+28:        <% end %>
+29:      </div>
+30:    
+31:      <div class="field form-group">
+32:        <%= f.label :password_confirmation %><br />
+33:        <%= f.password_field :password_confirmation,
+34:        autocomplete: "new-password",
+35:        #class:"form-control",
+36:        #placeholder: "Password"  %>
+37:      </div>
+38:    
+39:      <div class="field form-group"">
+40:        <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
+41:        <%= f.password_field :current_password,
+42:        autocomplete: "current-password",
+43:        #class:"form-control",
+44:        #placeholder: "Current Password"  %>
+45:      </div>
+46:    
+47:      <div class="actions">
+48:        <%= f.submit "Update" %>
+49:      </div>
+50:    <% end %>
+51:    
+52:    <h3>Cancel my account</h3>
+53:    
+54:    <p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
+55:    
+56:    <%= link_to "Back", :back %>
+  
+app/views/devise/registrations/edit.html.erb:13: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:16: unknown regexp options - dv
+app/views/devise/registrations/edit.html.erb:19: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:20: syntax error, unexpected backslash
+app/views/devise/registrations/edit.html.erb:26: syntax error, unexpected regexp literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:37: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:40: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:45: unknown regexp options - dv
+app/views/devise/registrations/edit.html.erb:47: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:49: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:52: unknown regexp option - h
+app/views/devise/registrations/edit.html.erb:52: syntax error, unexpected integer literal, expecting ')'
+app/views/devise/registrations/edit.html.erb:54: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:59: unterminated regexp meets end of file
+app/views/devise/registrations/edit.html.erb:59: syntax error, unexpected end-of-input, expecting ')'
+app/views/devise/registrations/edit.html.erb:13: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:16: unknown regexp options - dv
+app/views/devise/registrations/edit.html.erb:19: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:20: syntax error, unexpected backslash
+app/views/devise/registrations/edit.html.erb:26: syntax error, unexpected regexp literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:37: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:40: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:45: unknown regexp options - dv
+app/views/devise/registrations/edit.html.erb:47: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:49: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:52: unknown regexp option - h
+app/views/devise/registrations/edit.html.erb:52: syntax error, unexpected integer literal, expecting ')'
+app/views/devise/registrations/edit.html.erb:54: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:59: unterminated regexp meets end of file
+app/views/devise/registrations/edit.html.erb:59: syntax error, unexpected end-of-input, expecting ')'
+app/views/devise/registrations/edit.html.erb:13: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:16: unknown regexp options - dv
+app/views/devise/registrations/edit.html.erb:19: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:20: syntax error, unexpected backslash
+app/views/devise/registrations/edit.html.erb:26: syntax error, unexpected regexp literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:37: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:40: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:45: unknown regexp options - dv
+app/views/devise/registrations/edit.html.erb:47: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:49: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:52: unknown regexp option - h
+app/views/devise/registrations/edit.html.erb:52: syntax error, unexpected integer literal, expecting ')'
+app/views/devise/registrations/edit.html.erb:54: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:59: unterminated regexp meets end of file
+app/views/devise/registrations/edit.html.erb:59: syntax error, unexpected end-of-input, expecting ')'
+app/views/devise/registrations/edit.html.erb:13: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:16: unknown regexp options - dv
+app/views/devise/registrations/edit.html.erb:19: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:20: syntax error, unexpected backslash
+app/views/devise/registrations/edit.html.erb:26: syntax error, unexpected regexp literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:37: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:40: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:45: unknown regexp options - dv
+app/views/devise/registrations/edit.html.erb:47: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:49: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:52: unknown regexp option - h
+app/views/devise/registrations/edit.html.erb:52: syntax error, unexpected integer literal, expecting ')'
+app/views/devise/registrations/edit.html.erb:54: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:59: unterminated regexp meets end of file
+app/views/devise/registrations/edit.html.erb:59: syntax error, unexpected end-of-input, expecting ')'
+app/views/devise/registrations/edit.html.erb:13: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:16: unknown regexp options - dv
+app/views/devise/registrations/edit.html.erb:19: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:20: syntax error, unexpected backslash
+app/views/devise/registrations/edit.html.erb:26: syntax error, unexpected regexp literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:37: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:40: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:45: unknown regexp options - dv
+app/views/devise/registrations/edit.html.erb:47: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:49: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:52: unknown regexp option - h
+app/views/devise/registrations/edit.html.erb:52: syntax error, unexpected integer literal, expecting ')'
+app/views/devise/registrations/edit.html.erb:54: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:59: unterminated regexp meets end of file
+app/views/devise/registrations/edit.html.erb:59: syntax error, unexpected end-of-input, expecting ')'
+app/views/devise/registrations/edit.html.erb:13: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:16: unknown regexp options - dv
+app/views/devise/registrations/edit.html.erb:19: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:20: syntax error, unexpected backslash
+app/views/devise/registrations/edit.html.erb:26: syntax error, unexpected regexp literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:37: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:40: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:45: unknown regexp options - dv
+app/views/devise/registrations/edit.html.erb:47: syntax error, unexpected '<'
+app/views/devise/registrations/edit.html.erb:49: syntax error, unexpected '<', expecting ')'
+app/views/devise/registrations/edit.html.erb:52: unknown regexp option - h
+app/views/devise/registrations/edit.html.erb:52: syntax error, unexpected integer literal, expecting ')'
+app/views/devise/registrations/edit.html.erb:54: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/devise/registrations/edit.html.erb:59: unterminated regexp meets end of file
+app/views/devise/registrations/edit.html.erb:59: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 21:56:30 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.5ms | Allocations: 213)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 18.1ms | Allocations: 2107)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.8ms | Allocations: 542)
+  Rendered layout layouts/application.html.erb (Duration: 41.0ms | Allocations: 6272)
+Completed 200 OK in 67ms (Views: 54.1ms | ActiveRecord: 0.3ms | Allocations: 9073)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 21:57:18 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (4.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 5.2ms | Allocations: 213)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 15.7ms | Allocations: 2117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 6.3ms | Allocations: 542)
+  Rendered layout layouts/application.html.erb (Duration: 41.2ms | Allocations: 6275)
+Completed 200 OK in 70ms (Views: 55.6ms | ActiveRecord: 4.4ms | Allocations: 9059)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 21:58:54 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 3.0ms | Allocations: 213)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 14.1ms | Allocations: 2164)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.0ms | Allocations: 545)
+  Rendered layout layouts/application.html.erb (Duration: 48.5ms | Allocations: 6331)
+Completed 200 OK in 72ms (Views: 62.4ms | ActiveRecord: 0.2ms | Allocations: 9116)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 22:04:12 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.6ms | Allocations: 213)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 32.9ms | Allocations: 2188)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.3ms | Allocations: 542)
+  Rendered layout layouts/application.html.erb (Duration: 59.3ms | Allocations: 6347)
+Completed 200 OK in 83ms (Views: 72.9ms | ActiveRecord: 0.2ms | Allocations: 9141)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 22:05:06 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 3.4ms | Allocations: 213)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 11.4ms | Allocations: 2185)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.3ms | Allocations: 542)
+  Rendered layout layouts/application.html.erb (Duration: 38.8ms | Allocations: 6344)
+Completed 200 OK in 69ms (Views: 50.2ms | ActiveRecord: 0.3ms | Allocations: 9129)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 22:05:44 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.2ms | Allocations: 213)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 33.5ms | Allocations: 2182)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.1ms | Allocations: 542)
+  Rendered layout layouts/application.html.erb (Duration: 72.2ms | Allocations: 6347)
+Completed 200 OK in 110ms (Views: 88.9ms | ActiveRecord: 0.2ms | Allocations: 9133)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 22:07:33 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 5.4ms | Allocations: 213)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 14.9ms | Allocations: 2198)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 4.7ms | Allocations: 542)
+  Rendered layout layouts/application.html.erb (Duration: 40.2ms | Allocations: 6356)
+Completed 200 OK in 64ms (Views: 51.5ms | ActiveRecord: 0.2ms | Allocations: 9148)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 22:09:04 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.1ms | Allocations: 213)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 14.4ms | Allocations: 2195)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 542)
+  Rendered layout layouts/application.html.erb (Duration: 42.4ms | Allocations: 6353)
+Completed 200 OK in 66ms (Views: 51.4ms | ActiveRecord: 0.2ms | Allocations: 9137)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 22:10:22 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 7.4ms | Allocations: 213)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 13.5ms | Allocations: 2201)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 3.6ms | Allocations: 542)
+  Rendered layout layouts/application.html.erb (Duration: 41.9ms | Allocations: 6366)
+Completed 200 OK in 59ms (Views: 51.4ms | ActiveRecord: 0.2ms | Allocations: 9161)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 22:11:03 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 2.0ms | Allocations: 213)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 20.4ms | Allocations: 2198)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 4.5ms | Allocations: 542)
+  Rendered layout layouts/application.html.erb (Duration: 47.8ms | Allocations: 6357)
+Completed 200 OK in 74ms (Views: 60.7ms | ActiveRecord: 0.2ms | Allocations: 9151)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 22:11:31 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (17.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 10.8ms | Allocations: 213)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 37.4ms | Allocations: 2197)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 15.8ms | Allocations: 542)
+  Rendered layout layouts/application.html.erb (Duration: 86.9ms | Allocations: 6355)
+Completed 200 OK in 146ms (Views: 109.9ms | ActiveRecord: 17.4ms | Allocations: 9140)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 22:14:15 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.0ms | Allocations: 213)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 16.8ms | Allocations: 2205)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 5.6ms | Allocations: 542)
+  Rendered layout layouts/application.html.erb (Duration: 41.2ms | Allocations: 6370)
+Completed 200 OK in 65ms (Views: 50.5ms | ActiveRecord: 0.2ms | Allocations: 9156)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 22:14:50 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.0ms | Allocations: 213)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 14.2ms | Allocations: 2201)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 542)
+  Rendered layout layouts/application.html.erb (Duration: 42.4ms | Allocations: 6359)
+Completed 200 OK in 68ms (Views: 52.5ms | ActiveRecord: 0.2ms | Allocations: 9151)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 22:16:09 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.2ms | Allocations: 213)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 16.0ms | Allocations: 2204)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.3ms | Allocations: 543)
+  Rendered layout layouts/application.html.erb (Duration: 41.9ms | Allocations: 6370)
+Completed 200 OK in 75ms (Views: 54.4ms | ActiveRecord: 0.2ms | Allocations: 9165)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 22:16:29 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.1ms | Allocations: 213)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 18.5ms | Allocations: 2200)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.7ms | Allocations: 542)
+  Rendered layout layouts/application.html.erb (Duration: 42.6ms | Allocations: 6365)
+Completed 200 OK in 64ms (Views: 52.8ms | ActiveRecord: 0.2ms | Allocations: 9160)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2021-08-27 22:21:11 +0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 28ms (ActiveRecord: 0.2ms | Allocations: 1750)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-27 22:21:12 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 109)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 594)
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 26.8ms | Allocations: 4670)
+Completed 200 OK in 39ms (Views: 37.1ms | ActiveRecord: 0.0ms | Allocations: 5978)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-27 22:21:14 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 3.7ms | Allocations: 536)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 14.0ms | Allocations: 1922)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.0ms | Allocations: 220)
+  Rendered layout layouts/application.html.erb (Duration: 39.1ms | Allocations: 6010)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.0ms | Allocations: 7652)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-27 22:44:12 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 4.6ms | Allocations: 536)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 17.3ms | Allocations: 1921)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.8ms | Allocations: 547)
+  Rendered layout layouts/application.html.erb (Duration: 45.6ms | Allocations: 6116)
+Completed 200 OK in 54ms (Views: 51.7ms | Allocations: 7969)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-27 22:44:16 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 155)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 15.9ms | Allocations: 1040)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.2ms | Allocations: 197)
+  Rendered layout layouts/application.html.erb (Duration: 43.1ms | Allocations: 4433)
+Completed 200 OK in 51ms (Views: 49.6ms | Allocations: 5094)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2021-08-27 22:44:29 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.1ms | Allocations: 213)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 12.5ms | Allocations: 1572)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 4.5ms | Allocations: 223)
+  Rendered layout layouts/application.html.erb (Duration: 49.8ms | Allocations: 5058)
+Completed 200 OK in 64ms (Views: 59.2ms | Allocations: 6275)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2021-08-27 22:45:18 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 3.6ms | Allocations: 213)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 10.0ms | Allocations: 1562)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 8.5ms | Allocations: 550)
+  Rendered layout layouts/application.html.erb (Duration: 36.3ms | Allocations: 5761)
+Completed 200 OK in 49ms (Views: 47.7ms | Allocations: 7551)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-27 22:47:02 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.8ms | Allocations: 536)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 17.2ms | Allocations: 1950)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 3.4ms | Allocations: 548)
+  Rendered layout layouts/application.html.erb (Duration: 44.5ms | Allocations: 6140)
+Completed 200 OK in 60ms (Views: 57.9ms | Allocations: 8000)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-27 22:47:57 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 536)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 21.6ms | Allocations: 1942)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.1ms | Allocations: 547)
+  Rendered layout layouts/application.html.erb (Duration: 63.8ms | Allocations: 6130)
+Completed 200 OK in 81ms (Views: 78.9ms | Allocations: 7994)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2021-08-27 22:50:57 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.4ms | Allocations: 213)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 34.7ms | Allocations: 3601)
+  Rendered layout layouts/application.html.erb (Duration: 44.2ms | Allocations: 4286)
+Completed 500 Internal Server Error in 59ms (Allocations: 6031)
+
+
+  
+ActionView::Template::Error (undefined method `deep_stringify_keys' for "btn btn-primary":String):
+    27:         </div>
+    28: 
+    29:         <div class="actions">
+    30:           <%= f.submit "Sign up",
+    31:           clas="btn btn-primary" %>
+    32:         </div>
+    33:       <% end %>
+  
+app/views/devise/registrations/new.html.erb:30
+app/views/devise/registrations/new.html.erb:8
+Started GET "/users/sign_up" for 127.0.0.1 at 2021-08-27 22:51:30 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.1ms | Allocations: 213)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 8.4ms | Allocations: 1570)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.6ms | Allocations: 550)
+  Rendered layout layouts/application.html.erb (Duration: 58.0ms | Allocations: 5769)
+Completed 200 OK in 71ms (Views: 70.0ms | Allocations: 7559)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2021-08-27 22:53:36 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.3ms | Allocations: 213)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 13.3ms | Allocations: 1624)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 5.7ms | Allocations: 550)
+  Rendered layout layouts/application.html.erb (Duration: 39.6ms | Allocations: 5816)
+Completed 200 OK in 54ms (Views: 49.5ms | Allocations: 7596)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2021-08-27 22:54:02 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.0ms | Allocations: 213)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 12.1ms | Allocations: 1626)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 550)
+  Rendered layout layouts/application.html.erb (Duration: 34.1ms | Allocations: 5818)
+Completed 200 OK in 49ms (Views: 48.2ms | Allocations: 7598)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2021-08-27 22:54:34 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 2.0ms | Allocations: 213)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 22.9ms | Allocations: 1626)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 6.7ms | Allocations: 550)
+  Rendered layout layouts/application.html.erb (Duration: 50.4ms | Allocations: 5828)
+Completed 200 OK in 65ms (Views: 63.4ms | Allocations: 7609)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2021-08-27 22:56:47 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 5.9ms | Allocations: 213)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 15.4ms | Allocations: 1627)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 550)
+  Rendered layout layouts/application.html.erb (Duration: 44.3ms | Allocations: 5819)
+Completed 200 OK in 58ms (Views: 57.0ms | Allocations: 7612)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-08-27 22:56:49 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 7.4ms | Allocations: 536)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 15.6ms | Allocations: 1940)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.6ms | Allocations: 220)
+  Rendered layout layouts/application.html.erb (Duration: 35.2ms | Allocations: 5416)
+Completed 200 OK in 48ms (Views: 43.3ms | Allocations: 6704)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2021-08-27 22:56:55 +0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"jamesreid@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "jamesreid@email.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 451ms (ActiveRecord: 0.8ms | Allocations: 4368)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-27 22:56:55 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/_header.html.erb:20
+  Rendered home/_header.html.erb (Duration: 10.1ms | Allocations: 1144)
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 40.6ms | Allocations: 4838)
+Completed 200 OK in 51ms (Views: 49.4ms | ActiveRecord: 0.3ms | Allocations: 5921)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 22:56:58 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 13.3ms | Allocations: 1878)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 35.4ms | Allocations: 5247)
+Completed 200 OK in 54ms (Views: 39.7ms | ActiveRecord: 0.1ms | Allocations: 6974)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2021-08-27 22:57:20 +0800
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.1ms | Allocations: 213)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 23.0ms | Allocations: 2216)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 5.8ms | Allocations: 542)
+  Rendered layout layouts/application.html.erb (Duration: 52.6ms | Allocations: 6375)
+Completed 200 OK in 91ms (Views: 67.0ms | ActiveRecord: 0.2ms | Allocations: 9167)
+
+
