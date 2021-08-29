@@ -4,7 +4,8 @@ Rails.application.routes.draw do
   get 'home/index'
 
   #This will create a route to show our index.html in our homepage.
-  root 'home#index'
+  #root 'home#index'
+  root 'friends#index'
 
   #This will create a route to About page.
   get 'home/about'
